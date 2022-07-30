@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java - Classico dos classicos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Java<span>.</span></a>
+        <div class="menuToggle" onclick="toogleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toogleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toogleMenu();">Sobre</a></li>
+            <li><a href="#menu" onclick="toogleMenu();">Projetos</a></li>
+            <li><a href="#expert" onclick="toogleMenu();">Criadores</a></li>
+            <li><a href="#testimonials" onclick="toogleMenu();">Comentarios</a></li>
+            <li><a href="#contact" onclick="toogleMenu();">Contato</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Java - Classico Dos Classicos</h2>
+            <p>
+                Java é uma linguagem de programação orientada&nbsp;
+                a objetos desenvolvida na década de 90 por uma equipe&nbsp;
+                de programadores chefiada por James Gosling, na empresa Sun&nbsp;
+                Microsystems, que em 2008 foi adquirido pela empresa Oracle Corporation.<br>
+                para mais informações: <a
+                    href="https://pt.wikipedia.org/wiki/Java_(linguagem_de_programação)">wikipedia</a>
+            </p>
+            <a href="https://www.java.com/pt-BR/download/" class="btn">Download</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col150">
+                <h2 class="titleText">Mais <span>S</span>obre o Java.</h2>
+                <p>
+                    Em 1991, na Sun Microsystems, foi iniciado o Green Project,&nbsp;
+                    o berço do Java, uma linguagem de programação orientada a objetos.&nbsp;
+                    Os mentores do projeto eram Patrick Naughton, Mike Sheridan, e James Gosling.&nbsp;
+                    Eles acreditavam que, eventualmente, haveria uma convergência dos computadores&nbsp;
+                    com os equipamentos e eletrodomésticos frequentemente usados pelas pessoas no seu&nbsp;
+                    dia-a-dia.<br>
+                </p>
+            </div>
+            <div class="col150">
+                <div class="imgBx">
+                    <img src="src/logo-java.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText"><span>P</span>rojetos Famoso</h2>
+            <p>
+                Auguns dos projetos famosos feitos em Java.
+            </p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="src/eclipse-ide.jpg">
+                </div>
+                <div class="text">
+                    <h3>Eclipse.</h3>
+                </div>
+            </div>
+            <span class="mostra-ocuta">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="src/nasa.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>NASA WorldWind.</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="src/minecraft.png">
+                    </div>
+                    <div class="text">
+                        <h3>Minecraft.</h3>
+                    </div>
+                </div>
+            </span>
+        </div>
+        <div class="title">
+            <a class="btn" onclick="mostra_ocuta();">Mostra Mais</a>
+        </div>
+    </section>
+
+    <section class="expert" id="expert">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>riadores</h2>
+            <p>
+                Os criadores dessa fantastica linguagem.
+            </p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="src/patrick_naughton.jpg">
+                </div>
+                <div class="text">
+                    <h3>Patrick Naughton</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="src/Mike_Sheridan.jpg">
+                </div>
+                <div class="text">
+                    <h3>Mike Sheridan</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="src/James-Gosling.png">
+                </div>
+                <div class="text">
+                    <h3>James Gosling</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h2 class="titleText"><span>C</span>omentarios</h2>
+            <p>
+                Augumas de suas musicas.
+            </p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="src/testi1.jpg">
+                </div>
+                <div class="text">
+                    <p>
+                        Java é a melhor liguagem que já programei.&nbsp;
+                        Facil de usar e a cada atualização fica mais potente
+                    </p>
+                    <h3>Someone Famousus</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="src/testi2.jpg">
+                </div>
+                <div class="text">
+                    <p>
+                        Iniciei programando em Java, e des de então&nbsp;
+                        não cosigo mais para de usar essa maravilha tecnologica.
+                    </p>
+                    <h3>Someone Famousus</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact</h2>
+            <p>
+                Entre em contato conosco.
+            </p>
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Name"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" placeholder="Send">
+            </div>
+        </div>
+    </section>
+
+    <div class="copyrightText">
+        <p>Copyright <a href="#">José Teixeira.</a> All Right Reserved</p>
+    </div>
+
+    <script type="text/javascript">
+
+        var isMostra = false;
+
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toogleMenu() {
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+        function mostra_ocuta(){
+            const div = document.querySelector('.mostra-ocuta');
+            div.classList.toggle('mostra');
+        }
+
+    </script>
+
+</body>
+
+</html>
